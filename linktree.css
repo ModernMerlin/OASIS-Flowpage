@@ -1,0 +1,60 @@
+
+body {
+    background: linear-gradient(180deg, rgba(9, 35, 100), rgba(14, 55, 157)), 100%;
+    text-align: center;
+    
+}
+
+
+/* Links */
+
+button.linkbox {
+    border: solid 5px rgb(255, 255, 255);
+    border-radius: 30px 2px;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    
+}
+
+.tagname {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#oasis-logo {
+    border-radius: 180px;
+    padding: 10px;
+    width: 250px;
+    
+}
+
+#insta {
+    background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+
+}
+#insta a:hover {
+    background-color: #83c240;
+}
+
+#fb {
+    background: linear-gradient(45deg, #274986, #2e4e8c, #345492, #3b5998, #415e9e, #4864a4, #4e69aa);
+    
+}
+
+#twit { 
+    background: linear-gradient(45deg, #008dcd, #0097d8, #00a2e3, #00acee, #28b6f9, #3dc1ff, #4dccff);
+    
+}
+
+#linktree {
+    background: linear-gradient(45deg, #00af66, #00bc71, #00c87d, #00d588, #29e294, #3eef9f, #50fcab);
+    
+}
+
+#cancommunityhealth {
+    background: linear-gradient(45deg, #b81313 , #160a0a, #000000) ;
+    
+}
