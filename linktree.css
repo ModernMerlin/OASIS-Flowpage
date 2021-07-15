@@ -14,6 +14,7 @@ button.linkbox {
     padding: 10px;
     width: 300px;
     font-weight: bold;
+    display: inline-block;
     
 }
 
