@@ -1,61 +1,110 @@
-
 body {
-    background: linear-gradient(180deg, rgba(9, 35, 100), rgba(14, 55, 157)), 100%;
     text-align: center;
-    
+    background: linear-gradient(180deg, #0b5c99, #003056, #003549, #095e66, #11b8a2, #99f7ea);
 }
+
 
 
 /* Links */
 
-button.linkbox {
-    border: solid 5px rgb(255, 255, 255);
-    border-radius: 30px 2px;
-    padding: 10px;
-    width: 300px;
-    font-weight: bold;
+.wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.linkbox {
     display: inline-block;
-    
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px 2px;
+    border: solid 5px rgb(255, 255, 255);
+    width: 100%;
+    max-width: 450px;
+}
+
+
+a:hover {
+    opacity: 0.5;
+    filter:saturate(200%);
 }
 
 .tagname {
     color: whitesmoke;
-    font-weight: bolder;
+    font-weight: 450;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Rubik', Verdana, sans-serif; 
+    text-decoration: none;
 }
 
 #oasis-logo {
     border-radius: 180px;
-    padding: 10px;
-    width: 250px;
-    
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    filter: saturation(100%);
+  position: center;
+}
+
+#oasis-logo2 {
+    border-radius: 180px;
+    padding: 5px;
+    width: 100%;
+    max-width: 200px;
+    display: block;
+}
+
+
+/*Colors*/
+#theredparty {
+    background: #940b0b;
+}
+#condoms {
+    background: linear-gradient(45deg, #dfc56e, #d4af37, #d5b23f, #b59326, #866d1c);
+}
+
+#fb {
+    background: linear-gradient(45deg, #274986, #2e4e8c, #345492, #3b5998, #415e9e, #4864a4, #4e69aa);    
 }
 
 #insta {
     background: linear-gradient(45deg, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
-
-}
-#insta a:hover {
-    background-color: #83c240;
-}
-
-#fb {
-    background: linear-gradient(45deg, #274986, #2e4e8c, #345492, #3b5998, #415e9e, #4864a4, #4e69aa);
-    
 }
 
 #twit { 
-    background: linear-gradient(45deg, #008dcd, #0097d8, #00a2e3, #00acee, #28b6f9, #3dc1ff, #4dccff);
-    
+    background: linear-gradient(45deg, #008dcd, #0097d8, #00a2e3, #00acee,#28b6f9, #3dc1ff, #4dccff);
 }
 
-#linktree {
+#accessprep {
     background: linear-gradient(45deg, #00af66, #00bc71, #00c87d, #00d588, #29e294, #3eef9f, #50fcab);
-    
+}
+
+#ryanwhite {
+    background: linear-gradient(45deg, #755ebd, #6d4dc7, #390bc0, #4417bf, #3e1b9e, #6247ac, #765bc2);
 }
 
 #cancommunityhealth {
-    background: linear-gradient(45deg, #b81313 , #160a0a, #000000) ;
-    
+    background: linear-gradient(45deg, #b81313 , #160a0a, #000000);
+}
+
+/*footer*/
+.footerlogo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 30px;
+    filter: saturate(150%);
+}
+
+@media all and (max-width: 499px) {
+    #oasis-logo {display: none;}
+    #oasis-logo2 {display: block;}
+  .footerLogo {width: 100%;}
+ 
+    .linkbox {width: 80%;}
+    body {max-width: 100%;}
+  }
+
 }
